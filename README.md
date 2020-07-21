@@ -1,8 +1,8 @@
 # BoggleNode
 expose an api where user check if it is valid english word.
 
-#start app
+# start app
 npm start
 
-#server port
+# server port
 port:3000
