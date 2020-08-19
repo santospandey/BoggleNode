@@ -42,9 +42,11 @@ function start(){
 
 start();
 
-app.use('/', indexRouter);
+// app.use('/', indexRouter);
+app.use('/', express.static(path.join('client')))
 app.use('/dictionary', dictionaryRouter);
-app.use('/users', usersRouter);
+
+// app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -1,0 +1,43 @@
+internal/modules/cjs/loader.js:983
+  throw err;
+  ^
+
+Error: Cannot find module '/home/santosh/Desktop/Boggle/BoggleNode'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:980:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:862:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+[0mGET / [36m304 [0m3689.387 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.928 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m24.662 ms - 1212[0m
+[0mGET /dictionary/BOX [32m200 [0m1.595 ms - 28[0m
+[0mGET /dictionary/HAT [32m200 [0m0.720 ms - 28[0m
+[0mGET /dictionary/DON [32m200 [0m97.986 ms - 28[0m
+[0mGET /dictionary/TAIL [32m200 [0m42.778 ms - 29[0m
+internal/modules/cjs/loader.js:983
+  throw err;
+  ^
+
+Error: Cannot find module '/home/santosh/Desktop/Boggle/BoggleNode'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:980:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:862:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:983
+  throw err;
+  ^
+
+Error: Cannot find module '/home/santosh/Desktop/Boggle/BoggleNode'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:980:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:862:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
