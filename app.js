@@ -45,9 +45,9 @@ function start() {
 start();
 
 app.use(express.static(path.join(__dirname, 'public', 'client')));
-// app.get('/', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'public', 'build'));
-// });
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'client'));
+});
 
 app.use('/dictionary', dictionaryRouter);
 
